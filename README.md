@@ -15,7 +15,7 @@ Completing this coursework required hands-on application of core Node.js and Exp
 
 - **RESTful API Architecture:** Designed and implemented standard HTTP routes (GET, POST, PUT, DELETE) for resource management.
 - **Modular Routing:** Utilized `express.Router()` to cleanly separate route definitions from the main server file, ensuring scalable code architecture.
-- **Middleware Implementation:** Applied both built-in (e.g., `express.json()`, `express.urlencoded()`) and custom middleware functions to process incoming requests and validate data.
+- **Middleware Implementation:** Applied both built-in (e.g., `express.json()`, `express.session()`) and custom middleware functions to process incoming requests and validate data.
 - **Centralized Error Handling:** Developed error-handling middleware to catch application errors and return standardized, client-friendly HTTP status codes and messages.
 - **Controller Logic:** Separated business logic from route handlers to maintain clean, readable, and maintainable code.
 
@@ -23,7 +23,7 @@ Completing this coursework required hands-on application of core Node.js and Exp
 
 - **Backend Environment:** Node.js
 - **Web Framework:** Express.js
-- **[Add other tools used]:** e.g., Nodemon (development), Dotenv (environment variables), CORS
+- **[Add other tools used]:** e.g. dotenv (environment variables), sqlite3
 
 ## 🔮 Future Scope & Independent Enhancements
 
@@ -37,5 +37,17 @@ While the core of this project was guided, I plan to leverage this Express.js fo
 
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/yourusername/spiral-sounds.git](https://github.com/yourusername/spiral-sounds.git)
+   git clone https://github.com/sarthak9540/scrimba-spiral-sounds.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd scrimba-spiral-sounds
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+4. Start the development server:
+   ```bash
+   npm start
    ```
