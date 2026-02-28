@@ -23,7 +23,7 @@ Completing this coursework required hands-on application of core Node.js and Exp
 
 - **Backend Environment:** Node.js
 - **Web Framework:** Express.js
-- **[Add other tools used]:** e.g. dotenv (environment variables), sqlite3
+- **Other tools used:** e.g. dotenv (environment variables), sqlite3
 
 ## 🔮 Future Scope & Independent Enhancements
 
